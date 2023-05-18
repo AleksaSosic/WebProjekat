@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Pekara.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <table style="width:100%;" />
+             <tr>
+                  <td style="width:100%;">
+                      SLIKA
+                  </td>
+             </tr>
+        </table>
+        <table style="width:100%;background:#75b3f2">
+            <tr>
+                <td style="width:33%; text-align:center;">
+                      <a href = "WebForm1.aspx"> Pecivo </a>
+                </td>
+                 <td style="width:33%;text-align:center;">
+                      <a href = "WebForm2.aspx"> Pecivo </a>
+                </td>
+                 <td style="width:33%;text-align:center;">
+                      LINK
+                </td>
+               
+            </tr>
+        </table>
+        <table style="width:100%;background:#f2d075" >
+            <tr>
+                <td style="width:30%;"></td>
+                <td style="width:70%;background:white"">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
